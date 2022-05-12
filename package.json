@@ -1,0 +1,19 @@
+{
+  "name": "health_hero_api",
+  "version": "1.0.0",
+  "description": "Api to build games",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seer11/health_hero_api.git"
+  },
+  "author": "Naseer Alam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seer11/health_hero_api/issues"
+  },
+  "homepage": "https://github.com/seer11/health_hero_api#readme"
+}
