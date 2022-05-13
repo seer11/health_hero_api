@@ -1,0 +1,3 @@
+{
+  "mongoURI": "mongodb+srv://health_hero_admin:Damalkor123@cluster0.p40cr.mongodb.net/health_hero?retryWrites=true&w=majority"
+}

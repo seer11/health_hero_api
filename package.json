@@ -4,6 +4,8 @@
   "description": "Api to build games",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon server",
+    "server": "nodemon server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/seer11/health_hero_api/issues"
   },
-  "homepage": "https://github.com/seer11/health_hero_api#readme"
+  "homepage": "https://github.com/seer11/health_hero_api#readme",
+  "dependencies": {
+    "config": "^3.3.7",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.0",
+    "mongodb": "^4.6.0",
+    "mongoose": "^6.3.3"
+  }
 }
