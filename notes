@@ -1,3 +1,20 @@
+as a developer allow me to build games off of health hero's API
+
+this game dev and his team would like to build some games off our api, they would get NFT(s) and get to keep the IP of the games
+
+we need to build our API and create the endpoint necessary for developers to do this.
+
+as it says above they would get NFT(s) and get to keep the IP of the games
+
+endpoints all gamification needed to enable a game dev to build simple games: steps, xp, hp, levels, life, & star power to start
+
+---- Technical Requirements -----
+using Node js
+Allow developers to set up the database for their game
+Allow setup of the Hp/Xp/Levels/Life/Stars powers logic
+Generate XP/Hp/Levels/Life/Stars based on data
+
+
 Type of games (battle game, play to earn game, card game)
 
 Schema Game: type_of_game (types of games will have another static schema),
@@ -17,4 +34,34 @@ character (_id, game_id, player_id)
 player (_id, name, email)
 battle_chracter (_id, character_id, power, attack, defense, life)
 play_to_earn_char (_id, character_id, balance)
+
+
+Concept (play to earn games) ==> each player will have points
+Steps
+1) Select the type of the game (e.g battle game)
+2) Build the game character (power, life, attack, defense)
+3) Battle against other characters (this will continously update the properties of the chracter based on the interaction)
+
+
+Endpoints Needed
+1) Get all Characters a player currently has (merge for apis needed)
+2) Access levels might be neede later on
+
+
+Building game logics
+
+Type of game (battle game)
+Define character properties (xp, hp, power, life etc) => properties of the chracter will be defined in the schema based on the game type selected
+so properties of the chracter will be array of objects
+interactions will be defined on the frontend?
+
+Game logics
+Attack 
+Defend
+Life
+
+
+
+
+
 
