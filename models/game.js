@@ -6,6 +6,11 @@ const CharacterSchema = new Schema({
     type: String,
     required: true,
   },
+  player_id: {
+    //required for defining the ownership of the game
+    type: String,
+    required: true,
+  },
   game_type: {
     type: String,
     // required: true,
