@@ -1,0 +1,6 @@
+{
+  "_id": "uuid",
+  "game_id": "uuid",
+  "player_id": "uuid",
+  "game_type": "text"
+}

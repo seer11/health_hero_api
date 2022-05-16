@@ -61,6 +61,32 @@ Defend
 Life
 
 
+Battle games types
+Single player or multi player
+
+single player games
+attack bots 
+avoid hurdles
+
+
+Multiplayer
+attack other character / breed on other characters
+
+
+
+How to define game logics using schemas
+Characters 
+enemies (select enemy for the game => wide range of enemies with different powers and movement will be availbale)
+Hurdles (define hurdles for the game => different hurdles will be available to choose from)
+Game plaform (select a platform from a range of platforms)
+
+
+Define a space for the game
+Define levels for the games (based on the enemy powers)
+Define all possible hurdles
+Define enemies with the possible properties and powers, weapons and rarities, movements
+Define characters with possible abilities, life , powers and movments, weapons
+
 
 
 
