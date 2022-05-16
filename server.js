@@ -15,6 +15,7 @@ app.use("/api/nfts", require("./routes/api/nfts"));
 app.use("/api/characters", require("./routes/api/characters"));
 app.use("/api/players", require("./routes/api/players"));
 app.use("/api/battleCharacters", require("./routes/api/battleCharacters"));
+app.use("/api/test", require("./routes/api/test"));
 
 // Serve static assets in production
 if (process.env.NODE_ENV === "production") {
