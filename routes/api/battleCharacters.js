@@ -34,9 +34,9 @@ router.post(
         life: req.body.life,
       });
 
-      const data = await newData.save();
+      // const data = await newData.save();
 
-      res.json(data);
+      res.json(newData);
     } catch (err) {
       console.error(err.message);
       res.status(500).send("Server Error");
@@ -48,6 +48,8 @@ router.post(
 // @desc     Get all battleCharacter
 // @access   Public for now
 router.get("/", async (req, res) => {
+  console.log("req.method=>", req.baseUrl);
+  // console.log("req=>", req);
   try {
     const battleCharacters = await battleCharacter.find().sort({ date: -1 });
     res.json(battleCharacters);

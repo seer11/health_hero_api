@@ -1,3 +1,25 @@
+const schemaData = require("../models");
+const { schemaExist } = require("./validation");
+
+exports.getSchemaName = (schemaName) => {
+  console.log("schemaData ==>", schemaData);
+  return schemaData[schemaName];
+};
+
+const getSchema = (collection, httpMethod) => {
+  const hasSchema = schemaExist(collection, httpMethod);
+  if (hasSchema.err) {
+    return hasSchema;
+  }
+  const schemaTree = JSON.parse(hasSchema.buffer);
+  const fschema = Object.keys(schemaTree).filter(
+    (k) => !/\?/.test(schemaTree[k]) && k !== "_id"
+  );
+  return { err: false, fschema, schemaTree };
+};
+
+exports.getSchema = getSchema;
+
 exports.mergeParse = (query) => {
   let merge = {};
   for (const attr in query) {

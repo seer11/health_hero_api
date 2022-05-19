@@ -1,0 +1,8 @@
+{
+  "_id": "uuid",
+  "name": "text",
+  "description": "text",
+  "attributes": "text",
+  "image": "text",
+  "date_created": "date"
+}

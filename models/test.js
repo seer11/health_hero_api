@@ -6,6 +6,10 @@ const TestSchema = new Schema({
     type: String,
     // required: true,
   },
+  name: {
+    type: String,
+    // required: true,
+  },
 
   // date_created: {
   //   type: Date,
