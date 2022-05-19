@@ -1,0 +1,22 @@
+[
+  {
+    "_id": "370deb24-a3f5-4f62-a6aa-2a573a308277",
+    "character_id": "370deb24-a3f5-4f62-a6aa-2a573a308274",
+    "power": 2,
+    "attack": 2,
+    "defense": 2,
+    "life": 2,
+    "speed": 2,
+    "date_created": "02/12/2022"
+  },
+  {
+    "_id": "370de324-a3f5-4f62-a6aa-2a573a308277",
+    "character_id": "370deb2c-a3f5-4f62-a6aa-2a573a308274",
+    "power": 2,
+    "attack": 2,
+    "defense": 2,
+    "life": 2,
+    "speed": 2,
+    "date_created": "02/12/2022"
+  }
+]

@@ -3,6 +3,6 @@
   "name": "text",
   "email": "text",
   "password": "text",
-  "points": "text",
+  "points": "int",
   "date_created": "date"
 }
