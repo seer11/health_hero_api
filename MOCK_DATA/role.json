@@ -1,0 +1,12 @@
+[
+  {
+    "_id": "d03a1ba9-0a85-416a-0a38-d05d01fc981d",
+    "name": "admin",
+    "description": "this is admin role"
+  },
+  {
+    "_id": "37ce565a-9341-4c60-088b-9634bd391608",
+    "name": "player",
+    "description": "this is player role"
+  }
+]

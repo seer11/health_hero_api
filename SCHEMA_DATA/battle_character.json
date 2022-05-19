@@ -1,10 +1,10 @@
 {
   "_id": "uuid",
   "character_id": "uuid",
-  "power": "text",
-  "attack": "text",
-  "defense": "text",
-  "life": "text",
-  "speed": "text",
+  "power": "int",
+  "attack": "int",
+  "defense": "int",
+  "life": "int",
+  "speed": "int",
   "date_created": "date"
 }
