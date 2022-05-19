@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const CharacterSchema = new Schema({
+const GameSchema = new Schema({
   _id: {
     type: String,
     required: true,
@@ -22,4 +22,4 @@ const CharacterSchema = new Schema({
   // },
 });
 
-module.exports = mongoose.model("character", CharacterSchema);
+module.exports = mongoose.model("game", GameSchema);

@@ -1,0 +1,8 @@
+{
+  "_id": "uuid",
+  "name": "text",
+  "email": "text",
+  "password": "text",
+  "points": "text",
+  "date_created": "date"
+}

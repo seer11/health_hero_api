@@ -1,0 +1,7 @@
+{
+  "_id": "uuid",
+  "power": "text",
+  "speed": "text",
+  "weapon": "text",
+  "date_created": "date"
+}
